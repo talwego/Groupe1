@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 public abstract class Console {
 
-	private String nom;
-	private int prix;
-	private LocalDate sortie;
+	protected String nom;
+	protected int prix;
+	protected LocalDate sortie;
 	public Console(String nom, int prix, LocalDate sortie) {
 		super();
 		this.nom = nom;
