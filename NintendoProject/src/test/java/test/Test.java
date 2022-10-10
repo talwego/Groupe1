@@ -1,5 +1,6 @@
 package test;
 
+import metier.Boutique;
 import metier.Console;
 
 public class Test {
@@ -12,6 +13,8 @@ public class Test {
 		Console c3 = new Console ("Ps1");
 		Console c4 = new Console ("Ps3");
 		Console c5 = new Console ("Ps4");
+		
+		Boutique b1 = new Boutique("Escromania","30 rue de la Paix");
 		
 		// TODO Auto-generated method stub
 
