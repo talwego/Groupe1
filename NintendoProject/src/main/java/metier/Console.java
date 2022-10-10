@@ -39,6 +39,7 @@ public abstract class Console {
 	public String toString() {
 		return "Console [nom=" + nom + "]";
 	}
+<<<<<<< HEAD
 
 	public int getPrix() {
 		return prix;
@@ -57,4 +58,6 @@ public abstract class Console {
 	}
 	
 	
+=======
+>>>>>>> main
 }
