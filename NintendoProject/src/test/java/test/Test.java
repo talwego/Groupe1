@@ -32,7 +32,7 @@ public class Test {
 		Jeu j2 = new Jeu ("Le retour de l'hivert", c1, b1);
 		Jeu j3 = new Jeu ("Le retour du vin chaud", c1, b1);
 		Jeu j4 = new Jeu ("Le retour de la crève", c1, b1);
-		Jeu j5 = new Jeu ("Le retour des vagues", c1, b1);
+		Jeu j5 = new Jeu ("Le retour des vagues", c1, b1) ;
 
 
 		
