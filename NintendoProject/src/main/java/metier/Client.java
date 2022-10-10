@@ -1,11 +1,8 @@
 package metier;
 
 public class Client {
-	
-
 	private String prenom;
 	private String nom;
-	
 	
 	public Client(String prenom, String nom) {
 		super();
