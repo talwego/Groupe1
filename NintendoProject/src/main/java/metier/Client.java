@@ -3,8 +3,8 @@ package metier;
 public class Client {
 	
 
-	protected String prenom;
-	protected String nom;
+	private String prenom;
+	private String nom;
 	
 	
 	public Client(String prenom, String nom) {
