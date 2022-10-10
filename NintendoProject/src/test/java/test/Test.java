@@ -1,36 +1,29 @@
 package test;
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
 import metier.Client;
-=======
 import metier.Console;
->>>>>>> main
-=======
+import metier.Hybride;
 import metier.Boutique;
-import metier.Console;
 import metier.Jeu;
->>>>>>> Stashed changes
+
 
 public class Test {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 	
 		
-		Client c1 = new Client("Pikachu","Ketchum");
-		Client c2 = new Client("Link","Cartoon");
+		Client cl1 = new Client("Pikachu","Ketchum");
+		Client cl2 = new Client("Link","Cartoon");
+		
+
 		
 		
-		
-=======
-		
-		
-		Console c1 = new Console ("Switch");
-		Console c2 = new Console ("Ps2");
-		Console c3 = new Console ("Ps1");
-		Console c4 = new Console ("Ps3");
-		Console c5 = new Console ("Ps4");
+		Hybride c1 = new Hybride ("Switch");
+		Hybride c2 = new Hybride ("Ps2");
+		Hybride c3 = new Hybride ("Ps1");
+		Hybride c4 = new Hybride ("Ps3");
+		Hybride c5 = new Hybride ("Ps4");
 		
 		Boutique b1 = new Boutique("la boutique", "5 rue des alouettes");
 		
