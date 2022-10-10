@@ -1,6 +1,8 @@
 package test;
 
 
+import java.time.LocalDate;
+
 import metier.Boutique;
 
 import metier.Client;
@@ -25,17 +27,14 @@ public class Test {
 
 		
 		
-		Hybride c1 = new Hybride ("Switch");
-		Hybride c2 = new Hybride ("Ps2");
-		Hybride c3 = new Hybride ("Ps1");
-		Hybride c4 = new Hybride ("Ps3");
-		Hybride c5 = new Hybride ("Ps4");
+		Hybride c1 = new Hybride ("Switch", 222, LocalDate.of(2022,7,7));
+	
 		
 		Boutique b1 = new Boutique("la boutique", "5 rue des alouettes");
 		
 		
 		Jeu j1 = new Jeu ("Le retour de la raclette", c1, b1);
-		Jeu j2 = new Jeu ("Le retour de l'hivert", c1, b1);
+		Jeu j2 = new Jeu ("Le retour de l'hiver", c1, b1);
 		Jeu j3 = new Jeu ("Le retour du vin chaud", c1, b1);
 		Jeu j4 = new Jeu ("Le retour de la crève", c1, b1);
 		Jeu j5 = new Jeu ("Le retour des vagues", c1, b1) ;
