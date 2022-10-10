@@ -1,11 +1,27 @@
 package test;
 
+<<<<<<< HEAD
 import metier.Boutique;
+=======
+<<<<<<< HEAD
+import metier.Client;
+=======
+>>>>>>> main
 import metier.Console;
+>>>>>>> main
 
 public class Test {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
+	
+		
+		Client c1 = new Client("Pikachu","Ketchum");
+		Client c2 = new Client("Link","Cartoon");
+		
+		
+		
+=======
 		
 		
 		Console c1 = new Console ("Switch");
@@ -18,6 +34,7 @@ public class Test {
 		
 		// TODO Auto-generated method stub
 
+>>>>>>> main
 	}
 
 }

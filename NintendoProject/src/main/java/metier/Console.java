@@ -1,5 +1,6 @@
 package metier;
 
+<<<<<<< HEAD
 import java.time.LocalDate;
 
 public class Console {
@@ -16,6 +17,11 @@ public class Console {
 		this.prix = prix;
 		this.sortie = sortie;
 	}
+=======
+public abstract class Console {
+
+	protected String nom;
+>>>>>>> main
 
 	public Console(String nom) {
 		this.nom = nom;
