@@ -1,6 +1,6 @@
 package metier;
 
-public abstract class Client {
+public class Client {
 	
 
 	protected String prenom;
