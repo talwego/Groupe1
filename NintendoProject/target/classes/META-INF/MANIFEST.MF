@@ -1,13 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-Built-By: thiba
-=======
-Built-By: polvi
->>>>>>> Stashed changes
-=======
 Built-By: clement
->>>>>>> Stashed changes
 Build-Jdk: 17.0.4.1
 Created-By: Maven Integration for Eclipse
 
