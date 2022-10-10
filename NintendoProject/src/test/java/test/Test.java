@@ -1,16 +1,12 @@
 package test;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import metier.Boutique;
-=======
-<<<<<<< HEAD
+
 import metier.Client;
-=======
->>>>>>> main
-=======
+
 import metier.Client;
->>>>>>> main
+
 import metier.Console;
 import metier.Hybride;
 import metier.Boutique;
@@ -48,11 +44,11 @@ public class Test {
 		
 		
 		
-		Boutique b1 = new Boutique("Escromania","30 rue de la Paix");
+		Boutique b2 = new Boutique("Escromania","30 rue de la Paix");
 		
 		// TODO Auto-generated method stub
 
->>>>>>> main
+
 	}
 
 }

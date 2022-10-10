@@ -1,13 +1,11 @@
 package metier;
 
-<<<<<<< HEAD
 import java.time.LocalDate;
 
-public class Console {
+public abstract class Console {
 
-	
 
-	private String nom;
+	protected String nom;
 	private int prix;
 	private LocalDate sortie;
 	
@@ -17,11 +15,7 @@ public class Console {
 		this.prix = prix;
 		this.sortie = sortie;
 	}
-=======
-public abstract class Console {
 
-	protected String nom;
->>>>>>> main
 
 	public Console(String nom) {
 		this.nom = nom;
@@ -39,7 +33,7 @@ public abstract class Console {
 	public String toString() {
 		return "Console [nom=" + nom + "]";
 	}
-<<<<<<< HEAD
+
 
 	public int getPrix() {
 		return prix;
@@ -58,6 +52,5 @@ public abstract class Console {
 	}
 	
 	
-=======
->>>>>>> main
+
 }
